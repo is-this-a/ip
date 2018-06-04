@@ -11,7 +11,7 @@ body {
 }
 
 #is_this_a_github_ip_form {
-  width: 34em;
+  max-width: 34em;
 }
 
 #ip_address {
