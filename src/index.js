@@ -1,6 +1,8 @@
 import CIDRMatcher from 'cidr-matcher';
 import arrayToSentence from 'array-to-sentence';
 
+const NAÏVE_ADDRESS_REGEX = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/;
+
 document.addEventListener('DOMContentLoaded', () => {
   const ipInput = document.getElementById('ip_address');
   const resultOutput = document.getElementById('result');
@@ -23,12 +25,27 @@ document.addEventListener('DOMContentLoaded', () => {
         Object.keys(ipGroups)
           .filter((name) => ipGroups[name].contains(ipAddress))
       );
+
+      update();
     });
 
-  ipInput.addEventListener('change', () => {
-    const matches = checkIp(ipInput.value);
+  const update = () => {
+    const value = ipInput.value.trim();
 
-    console.log(matches);
+    if (!value) {
+      resultOutput.innerText = 'Letʼs find out!';
+      return;
+    }
+
+    if (!NAÏVE_ADDRESS_REGEX.test(ipInput.value)) {
+      if (resultOutput.innerText !== 'Letʼs find out!') {
+        resultOutput.innerText = 'This doesnʼt look like an IP address!';
+      }
+
+      return;
+    }
+
+    const matches = checkIp(value);
 
     if (matches.length < 1) {
       resultOutput.innerText = 'No!';
@@ -36,5 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     resultOutput.innerText = `Yep! That's an address GitHub use for ${arrayToSentence(matches)}!`;
-  });
+  }
+
+  ipInput.addEventListener('keyup', update);
+  ipInput.addEventListener('paste', update);
+  ipInput.addEventListener('change', update);
 });
