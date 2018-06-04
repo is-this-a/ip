@@ -8,9 +8,14 @@
   <title>Is this a GitHub IP?</title>
 </head>
 <body>
-  <form id="is_this_a_github_ip_form">
-    <h1>Is <input type="text" id="ip_address" placeholder="13.250.178.126" autofocus="true" size="14" /> a GitHub IP?</h1>
+  <form id="is_this_a_github_ip_form" class="four_by_three">
+    <h1>Is this a GitHub IP?</h1>
+    <div id="ip_address_wrapper">
+      <input type="text" id="ip_address" placeholder="13.250.178.126" autofocus="true" size="14" />
+    </div>
     <p id="result">Letʼs find out!</p>
+  </form>
+  <div id="footer">
     <p>
       <small>
         GitHub publish <a href="https://help.github.com/articles/about-github-s-ip-addresses/">their IP addresses via their API</a>, this pulls in that list and checks the IP you provide.
@@ -18,6 +23,6 @@
       </small>
     </p>
     <p>Made with 💜 by <a href="https://github.com/ticky">Jessica Stokes</a>, source is available <a href="https://github.com/is-this-a/ip">on GitHub</a>.</p>
-  </form>
+  </div>
 </body>
 </html>

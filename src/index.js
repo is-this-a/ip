@@ -52,10 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    resultOutput.innerText = `Yep! That's an address GitHub use for ${arrayToSentence(matches)}!`;
+    resultOutput.innerText = `Yep! Thatʼs an address GitHub use for ${arrayToSentence(matches)}!`;
   }
 
-  ipInput.addEventListener('keyup', update);
-  ipInput.addEventListener('paste', update);
-  ipInput.addEventListener('change', update);
+  ipInput.addEventListener('input', update);
+  // ipInput.addEventListener('paste', update);
+  // ipInput.addEventListener('change', update);
 });
