@@ -9,8 +9,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let checkIp;
 
+  const errorHandler = () => {
+    ipInput.value = '⁉️';
+    ipInput.disabled = true;
+    resultOutput.innerText = 'The GitHub API seems to be down! Try again later.';
+  }
+
   fetch('https://api.github.com/meta')
-    .then((response) => response.json())
+    .then((response) => {
+      if (response.ok) {
+        return response.json()
+      }
+
+      errorHandler();
+    })
+    .catch(errorHandler)
     .then((jsonData) => {
       const ipGroups = {};
 

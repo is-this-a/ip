@@ -86,6 +86,7 @@ a:focus {
     .08em -.08em 1px #333,
     .04em -.08em 1px #333;
   color: rgba(255,255,255,0.01);
+  transition: color 100ms ease-in-out;
 }
 
 .four_by_three *:focus {
@@ -112,12 +113,13 @@ a:focus {
 
 #ip {
   border: none;
+  border-radius: 1em;
   color: inherit;
   background: none;
   font: inherit;
   font-size: 2em;
   line-height: inherit;
-  text-indent: .2em;
+  text-align: center;
   margin: 0;
   max-width: 100%;
   appearance: none;
