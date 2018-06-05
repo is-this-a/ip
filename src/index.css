@@ -68,14 +68,28 @@ a:focus {
 
 .four_by_three * {
   text-shadow:
-    0 -.09em 0.04em #333,
-    -.08em -.08em 0.04em #333,
-    -.09em 0 0.04em #333,
-    -.08em .08em 0.04em #333,
-    0 .09em 0.04em #333,
-    .08em .08em 0.04em #333,
-    .09em 0 0.04em #333,
-    .08em -.08em 0.04em #333;
+    0 0 1px #eee,
+    0 -.09em 1px #333,
+    -.04em -.08em 1px #333,
+    -.08em -.08em 1px #333,
+    -.08em -.04em 1px #333,
+    -.09em 0 1px #333,
+    -.08em .04em 1px #333,
+    -.08em .08em 1px #333,
+    -.04em .08em 1px #333,
+    0 .09em 1px #333,
+    .04em .08em 1px #333,
+    .08em .08em 1px #333,
+    .08em .04em 1px #333,
+    .09em 0 1px #333,
+    .08em -.04em 1px #333,
+    .08em -.08em 1px #333,
+    .04em -.08em 1px #333;
+  color: rgba(255,255,255,0.01);
+}
+
+.four_by_three *:focus {
+  color: #eee !important;
 }
 
 #is_this_a_github_ip_form {
@@ -87,7 +101,7 @@ a:focus {
   padding: 4%;
 }
 
-#ip_address_wrapper {
+#ip_wrapper {
   display: flex;
   flex: 1 0 3em;
   order: -1;
@@ -96,14 +110,14 @@ a:focus {
   justify-content: center;
 }
 
-#ip_address {
+#ip {
   border: none;
   color: inherit;
   background: none;
   font: inherit;
   font-size: 2em;
   line-height: inherit;
-  padding: .1em;
+  text-indent: .2em;
   margin: 0;
   max-width: 100%;
   appearance: none;

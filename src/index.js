@@ -4,7 +4,7 @@ import arrayToSentence from 'array-to-sentence';
 const NAÏVE_ADDRESS_REGEX = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/;
 
 document.addEventListener('DOMContentLoaded', () => {
-  const ipInput = document.getElementById('ip_address');
+  const ipInput = document.getElementById('ip');
   const resultOutput = document.getElementById('result');
 
   let checkIp;
