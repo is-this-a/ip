@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then((jsonData) => {
       const ipGroups = {};
 
-      Object.keys(jsonData).forEach((name) => {
+      Object.keys(jsonData).sort().forEach((name) => {
         // discard non-array items
         if (Array.isArray(jsonData[name])) {
           ipGroups[name] = new CIDRMatcher(jsonData[name]);
