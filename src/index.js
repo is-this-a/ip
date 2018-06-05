@@ -33,12 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const value = ipInput.value.trim();
 
     if (!value) {
-      resultOutput.innerText = 'Letʼs find out!';
+      resultOutput.innerText = 'Paste or type an IP address to find out!';
       return;
     }
 
     if (!NAÏVE_ADDRESS_REGEX.test(ipInput.value)) {
-      if (resultOutput.innerText !== 'Letʼs find out!') {
+      if (resultOutput.innerText !== 'Paste or type an IP address to find out!') {
         resultOutput.innerText = 'This doesnʼt look like an IP address!';
       }
 
@@ -56,6 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   ipInput.addEventListener('input', update);
-  // ipInput.addEventListener('paste', update);
-  // ipInput.addEventListener('change', update);
+  ipInput.addEventListener('keydown', (event) => {
+    if (!ipInput.value && ((event.key && event.key === 'Enter') || event.keyCode === 13)) {
+      ipInput.value = ipInput.getAttribute('placeholder');
+      update();
+    }
+  });
 });
