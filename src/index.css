@@ -100,6 +100,7 @@ a:focus {
   justify-content: space-between;
   margin: 0;
   padding: 4%;
+  max-height: 100vh;
 }
 
 #ip_wrapper {
