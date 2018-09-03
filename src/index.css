@@ -1,5 +1,9 @@
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Old Sans Black'; /* is (c) 2003 Manfred Klein, listed as "free for personal use" on https://fontzone.net/font-details/old-sans-black */
+  src: url('fonts/OldSansBlack.woff2') format('woff2'),
+       url('fonts/OldSansBlack.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
@@ -94,6 +98,7 @@ a:focus {
 }
 
 #is_this_a_github_ip_form {
+  font-family: 'Old Sans Black', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
