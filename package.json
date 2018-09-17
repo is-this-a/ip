@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
+    "lint": "eslint src",
     "build": "parcel build src/index.html --public-url /ip/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"

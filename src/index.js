@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
     ipInput.value = '⁉️';
     ipInput.disabled = true;
     resultOutput.innerText = 'The GitHub API seems to be down! Try again later.';
-  }
+  };
 
   fetch('https://api.github.com/meta')
     .then((response) => {
       if (response.ok) {
-        return response.json()
+        return response.json();
       }
 
       errorHandler();
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     resultOutput.innerText = `Yep! Thatʼs an address GitHub use for ${arrayToSentence(matches)}!`;
-  }
+  };
 
   ipInput.addEventListener('input', update);
   ipInput.addEventListener('keydown', (event) => {
