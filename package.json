@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
+    "lint": "eslint src",
     "build": "parcel build src/index.html --public-url /ip/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
@@ -17,7 +18,7 @@
   "devDependencies": {
     "@babel/core": "7.0.1",
     "@babel/preset-env": "7.0.0",
-    "eslint": "4.19.1",
+    "eslint": "5.6.0",
     "gh-pages": "1.2.0",
     "parcel-bundler": "1.9.7",
     "parcel-plugin-clean-dist": "0.0.6",
