@@ -15,13 +15,13 @@
     "cidr-matcher": "1.0.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.1",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/core": "7.0.1",
+    "@babel/preset-env": "7.0.0",
     "eslint": "4.19.1",
     "gh-pages": "1.2.0",
     "parcel-bundler": "1.9.7",
     "parcel-plugin-clean-dist": "0.0.6",
-    "postcss-font-family-system-ui": "^4.1.0",
+    "postcss-font-family-system-ui": "4.1.0",
     "postcss-preset-env": "5.3.0"
   }
 }
