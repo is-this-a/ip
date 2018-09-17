@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "postcss-preset-env": {
+      "stage": 0
+    },
+    "postcss-font-family-system-ui": true
+  }
+}
