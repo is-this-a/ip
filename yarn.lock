@@ -4098,7 +4098,7 @@ postcss-focus-within@^3.0.0:
   dependencies:
     postcss "^7.0.2"
 
-postcss-font-family-system-ui@4.1.0, postcss-font-family-system-ui@^4.1.0:
+postcss-font-family-system-ui@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/postcss-font-family-system-ui/-/postcss-font-family-system-ui-4.1.0.tgz#2bacc716428f50acfc7ecef4eec8bfa31905fa67"
   dependencies:
@@ -4394,9 +4394,9 @@ postcss-place@^4.0.1:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-preset-env@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-6.0.0.tgz#a7afd0ec098bca8312c95dbbd11efa88f15da30e"
+postcss-preset-env@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-6.0.1.tgz#996184ead5ff09c0a2d3e3ab7609b91f711f88d5"
   dependencies:
     autoprefixer "^9.1.5"
     browserslist "^4.1.1"
@@ -4415,7 +4415,6 @@ postcss-preset-env@6.0.0:
     postcss-env-function "^2.0.1"
     postcss-focus-visible "^4.0.0"
     postcss-focus-within "^3.0.0"
-    postcss-font-family-system-ui "^4.1.0"
     postcss-font-variant "^4.0.0"
     postcss-gap-properties "^2.0.0"
     postcss-image-set-function "^3.0.1"
