@@ -23,6 +23,6 @@
     "parcel-bundler": "1.9.7",
     "parcel-plugin-clean-dist": "0.0.6",
     "postcss-font-family-system-ui": "4.1.0",
-    "postcss-preset-env": "6.0.5"
+    "postcss-preset-env": "6.0.6"
   }
 }
