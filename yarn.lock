@@ -3542,9 +3542,9 @@ postcss-convert-values@^4.0.0:
     postcss "^6.0.0"
     postcss-value-parser "^3.0.0"
 
-postcss-custom-media@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-7.0.3.tgz#da0a3aa24831fcaa045e1231a517a15e0dcdfa1b"
+postcss-custom-media@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-7.0.4.tgz#98e593c4a9a38fefee848434131fa16d316ee165"
   dependencies:
     postcss "^7.0.2"
 
@@ -3945,9 +3945,9 @@ postcss-place@^4.0.1:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-preset-env@6.0.5:
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-6.0.5.tgz#43a0d3401bbb5963ce8231ad7723e6d8a0218cb6"
+postcss-preset-env@6.0.6:
+  version "6.0.6"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-6.0.6.tgz#f728b9a43bf01c24eb06efeeff59de0b31ee1105"
   dependencies:
     autoprefixer "^9.1.5"
     browserslist "^4.1.1"
@@ -3959,7 +3959,7 @@ postcss-preset-env@6.0.5:
     postcss-color-hex-alpha "^5.0.2"
     postcss-color-mod-function "^3.0.3"
     postcss-color-rebeccapurple "^4.0.1"
-    postcss-custom-media "^7.0.3"
+    postcss-custom-media "^7.0.4"
     postcss-custom-properties "^8.0.5"
     postcss-custom-selectors "^5.1.2"
     postcss-dir-pseudo-class "^5.0.0"
