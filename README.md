@@ -1,5 +1,7 @@
 # Is this a GitHub IP?
 
+[![Build Status](https://travis-ci.org/is-this-a/ip.svg?branch=develop)](https://travis-ci.org/is-this-a/ip)
+
 A little tool for checking if an IP is within GitHub's published IP ranges.
 
 ## Usage
