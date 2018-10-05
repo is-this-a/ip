@@ -17,7 +17,7 @@
     "cidr-matcher": "1.0.5"
   },
   "devDependencies": {
-    "@babel/core": "7.1.0",
+    "@babel/core": "7.1.2",
     "@babel/preset-env": "7.1.0",
     "eslint": "5.6.0",
     "gh-pages": "2.0.0",
