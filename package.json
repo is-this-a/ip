@@ -21,7 +21,7 @@
     "@babel/preset-env": "7.1.0",
     "eslint": "5.6.1",
     "gh-pages": "2.0.1",
-    "parcel-bundler": "1.10.1",
+    "parcel-bundler": "1.10.2",
     "parcel-plugin-clean-dist": "0.0.6",
     "postcss-font-family-system-ui": "4.1.0",
     "postcss-preset-env": "6.0.10"
