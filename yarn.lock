@@ -1921,12 +1921,12 @@ chownr@^1.0.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
   integrity sha1-4qdQQqlVGQi+vSW4Uj1fl2nXkYE=
 
-cidr-matcher@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/cidr-matcher/-/cidr-matcher-1.0.5.tgz#1805e49751be8fc8279a73355574e31c9f49666b"
-  integrity sha1-GAXkl1G+j8gnmnM1VXTjHJ9JZms=
+cidr-matcher@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/cidr-matcher/-/cidr-matcher-2.1.0.tgz#4f1ab176aef778806d719e908cafb5b6b43a5bc0"
+  integrity sha512-ragEBJw5aNrgeXEOlvni+kO0gtzuBgw0Uq9PCfJKms/eU348m6OXwVg80QNPHsJwlkFWCLKVKWH+F+Atpml+Sw==
   dependencies:
-    ip "^1.0.2"
+    ip6addr "^0.2.2"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -3718,10 +3718,12 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
-ip@^1.0.2:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
-  integrity sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
+ip6addr@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/ip6addr/-/ip6addr-0.2.2.tgz#652ee260170392eebcb2a99232476241dcd50001"
+  integrity sha1-ZS7iYBcDku68sqmSMkdiQdzVAAE=
+  dependencies:
+    assert-plus "^1.0.0"
 
 is-absolute-url@^2.0.0:
   version "2.1.0"
