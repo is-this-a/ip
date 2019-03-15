@@ -30,7 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
       Object.keys(jsonData).sort().forEach((name) => {
         // discard non-array items
         if (Array.isArray(jsonData[name])) {
-          ipGroups[name] = new CIDRMatcher(jsonData[name]);
+          ipGroups[name] = (
+            new CIDRMatcher(jsonData[name].map((ip) => (
+              /* CIDRMatcher now requires CIDR notation for all IPs,     *
+               * so we whack `/32` on the end of any which don't already */
+              ip.indexOf('/') !== -1
+                ? ip
+                : `${ip}/32`
+            )))
+          );
         }
       });
 
