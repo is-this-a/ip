@@ -1755,10 +1755,10 @@ chownr@^1.1.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.1.tgz#54726b8b8fff4df053c42187e801fb4412df1494"
   integrity sha512-j38EvO5+LHX84jlo6h4UzmOwi0UgW61WRyPtJz4qaadK5eY3BTS5TY/S1Stc3Uk2lIM6TPevAlULiEJwie860g==
 
-cidr-matcher@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/cidr-matcher/-/cidr-matcher-2.1.0.tgz#4f1ab176aef778806d719e908cafb5b6b43a5bc0"
-  integrity sha512-ragEBJw5aNrgeXEOlvni+kO0gtzuBgw0Uq9PCfJKms/eU348m6OXwVg80QNPHsJwlkFWCLKVKWH+F+Atpml+Sw==
+cidr-matcher@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/cidr-matcher/-/cidr-matcher-2.1.1.tgz#01a489f291bfbc7a3a14358120a6d839a98b1c90"
+  integrity sha512-QPJRz4HDQxpB8AZWEqd6ejVp+siArXh3u1MYaUFV85cd293StGSMb87jVe0z9gS92KsFwxCxjb3utO3e5HKHTw==
   dependencies:
     ip6addr "^0.2.2"
 
