@@ -1,6 +1,6 @@
 # Is this a GitHub IP?
 
-[![Build Status](https://travis-ci.org/is-this-a/ip.svg?branch=develop)](https://travis-ci.org/is-this-a/ip)
+[![Node.js CI](https://github.com/is-this-a/ip/workflows/Node.js%20CI/badge.svg)](https://github.com/is-this-a/ip/actions?query=workflow%3A%22Node.js+CI%22)
 
 A little tool for checking if an IP is within GitHub's published IP ranges.
 
