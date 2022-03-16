@@ -20,7 +20,7 @@
     "@babel/core": "7.17.7",
     "@babel/preset-env": "7.16.11",
     "eslint": "7.32.0",
-    "gh-pages": "3.1.0",
+    "gh-pages": "3.2.3",
     "parcel-bundler": "1.12.4",
     "parcel-plugin-clean-dist": "0.0.6",
     "postcss-font-family-system-ui": "4.3.0",
