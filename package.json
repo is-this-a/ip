@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/core": "7.17.7",
     "@babel/preset-env": "7.16.11",
-    "eslint": "8.11.0",
+    "eslint": "8.57.1",
     "gh-pages": "3.2.3",
     "parcel-bundler": "1.12.5",
     "parcel-plugin-clean-dist": "0.0.6",
