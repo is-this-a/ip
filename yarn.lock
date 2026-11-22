@@ -5652,14 +5652,13 @@ postcss-focus-within@^3.0.0:
   dependencies:
     postcss "^7.0.2"
 
-postcss-font-family-system-ui@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/postcss-font-family-system-ui/-/postcss-font-family-system-ui-4.3.0.tgz#d920202281d5d6b1d555a41ff26ab55df0893569"
-  integrity sha512-ChmilJvOfR7ttwslRkMsDQqJOIpJ/3UWzdST49Ewd1KUOm7S9SmE1W9PcmXYfQQsl6nIy1Qc8EuV1VXAJhvs8A==
+postcss-font-family-system-ui@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-font-family-system-ui/-/postcss-font-family-system-ui-6.0.0.tgz#8d3b45dcca3a66270979d0ffe9b250bb77c5d086"
+  integrity sha512-Cc7aNgLm9KIm+CeaZysJQEWDFm2DQ8FUw3n9AI+ewuZHNu0B/KKvaaLb+Tu0ayrhbmZUL3Ztz5rsbWe5FhPzwA==
   dependencies:
     browserslist "^4.0.0"
     caniuse-lite "^1.0.30000655"
-    postcss "^7.0.0"
 
 postcss-font-variant@^4.0.0:
   version "4.0.0"
